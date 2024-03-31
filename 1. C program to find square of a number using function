@@ -1,0 +1,13 @@
+// Find square of a number using function
+// No perameter, no return type
+#include <stdio.h>
+void sq()
+{ int s=1,n;
+scanf("%d", &n);
+s= n*n;
+printf("Result= %d", s);
+}
+int main() 
+{
+    sq();
+}
